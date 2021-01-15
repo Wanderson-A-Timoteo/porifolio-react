@@ -1,7 +1,13 @@
 import React from 'react';
-import { FaFacebookF, FaGithub, FaInstagram, FaTelegram, FaTwitter, FaWhatsapp, FaPlay } from 'react-icons/fa';
+import { FaFacebookF, FaGithub, FaInstagram, FaTelegram, FaTwitter, FaWhatsapp, FaLinkedin, FaPlay } from 'react-icons/fa';
 
 function Banner () {
+
+    const [state] = React.useState({
+        title: 'I am Wanderson Timóteo', 
+        text: 'I,m Wanderson, professional web developer whith long time experience in the field.',
+        image: '/images/my-photo.jpg'
+    });
     return (
         <header className="header">
             <div className="container">
@@ -28,11 +34,12 @@ function Banner () {
                                     <li>
                                         <FaWhatsapp />
                                     </li>
+                                    <li>
+                                        <FaLinkedin />
+                                    </li>
                                 </ul>
-                                <h1>I am Wanderson Timóteo</h1>
-                                <p>
-                                    I,m Wanderson, professional web developer whith long time experience in the field.
-                                </p>
+                                <h1> {state.title} </h1>
+                                <p> {state.text} </p>
                                 <div className="header__buttons">
                                     <a href="" className="btn btn-outline">
                                         My Portfolio
@@ -47,7 +54,7 @@ function Banner () {
                     </div>
                     <div className="col-6">
                         <div className="banner__img">
-                        <img src="/images/my-photo.jpg" alt="Photo Wanderson Timóteo" />
+                        <img src={state.image} alt="Photo Wanderson Timóteo" />
                         </div>
                     </div>
                 </div>

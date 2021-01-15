@@ -62,10 +62,19 @@ body {
 .row {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
+}
+
+.bgMain {
+  background: rgb(34, 3, 63);
 }
 
 .col-6 {
   width: 50%;
+}
+
+.col-4 {
+  width: 33.33333333333333%;
 }
 
 /* Header */
@@ -144,5 +153,66 @@ body {
   display: flex;
   width: 400px;
   height: 600px;
-  margin-left: 300px;
+  margin-left: 319px;
 }
+
+/* Services */
+.services {
+  background: rgb(34, 3, 63);
+  padding: 100px 0;
+  color: #FFFFFF;
+}
+
+.common {
+  width: 33.33333333333333%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  color: #FF4A57;
+  font-size: 16px;
+}
+
+.mainHeader {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.mainContent {
+  font-size: 16px;
+  color: #DFDFDF;
+}
+
+.commonBorder {
+  background: #FF4A57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
+}
+
+.services__box {
+  padding: 20px;
+  background: rgb(57, 9, 102);
+  color: #FFFFFF;
+  margin: 20px;
+}
+
+.commonIcons {
+  font-size: 50px;
+  color: #FF4A57;
+  margin-bottom: 15px;
+}
+
+.services__box-header {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.services__box-p {
+  font-size: 14px;
+  color: #DFDFDF;
+}
+
