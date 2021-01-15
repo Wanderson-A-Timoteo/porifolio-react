@@ -25,6 +25,7 @@ body {
   top: 0;
   background:  rgb(34, 3, 63);
   z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   /*background: #1F2235;*/
 }
 
@@ -58,15 +59,25 @@ body {
   margin: 0 auto;
 }
 
+.bgMain {
+  background: rgb(34, 3, 63);
+}
+
+.h-650 {
+  height: 650px;
+}
+.alignCenter {
+  align-items: center;
+}
+.justifyConter {
+  justify-content: center;
+}
+
 /* Grid System */
 .row {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-}
-
-.bgMain {
-  background: rgb(34, 3, 63);
 }
 
 .col-6 {
@@ -87,7 +98,6 @@ body {
 }
 
 .header__ul {
-  padding-top: 100px;
   list-style-type: none;
   display: flex;
   margin-bottom: 20px;
@@ -96,12 +106,26 @@ body {
 .header__ul li {
   width: 50px;
   height: 50px;
+  font-size: 20px;
   border: 3px solid #FF4A57;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 10px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+
+.header__ul li:hover {
+  font-size: 30px;
+  color: #FF4A57;
+  background: #fff;
+  border: 2px solid transparent;
+}
+
+.header__ul li:hover .headerIcon {
+  color: #ff4a57;
 }
 
 .header__ul li:first-child {
@@ -149,12 +173,14 @@ body {
   margin-top: 150px;
 }
 
+/* Services 
 .banner__img img{
   display: flex;
   width: 400px;
   height: 600px;
   margin-left: 319px;
 }
+*/
 
 /* Services */
 .services {
@@ -171,6 +197,7 @@ body {
 
 .heading {
   margin-bottom: 20px;
+  font-weight: 500;
   color: #FF4A57;
   font-size: 16px;
 }
@@ -178,6 +205,7 @@ body {
 .mainHeader {
   font-size: 32px;
   margin-bottom: 20px;
+  color: #FFFFFF;
 }
 
 .mainContent {
@@ -193,16 +221,25 @@ body {
 }
 
 .services__box {
-  padding: 20px;
+  padding: 40px;
   background: rgb(57, 9, 102);
   color: #FFFFFF;
   margin: 20px;
+  transition: all 0.5s linear;
+}
+
+.services__box:hover {
+  background: #FF4A57;
 }
 
 .commonIcons {
   font-size: 50px;
   color: #FF4A57;
   margin-bottom: 15px;
+}
+
+.services__box:hover .commonIcons {
+  color: #FFFFFF;
 }
 
 .services__box-header {
@@ -214,5 +251,45 @@ body {
 .services__box-p {
   font-size: 14px;
   color: #DFDFDF;
+}
+
+/* Abaout */
+.about {
+  width: 100%;
+  background: rgb(57, 9, 102);
+  padding: 100px 0;
+}
+.about__img {
+  padding: 30px;
+}
+.about__img img {
+  width: 300px;
+  height: 400px;
+}
+.about__info {
+  color: #fff;
+}
+.about__info h1 {
+  margin-bottom: 30px;
+}
+.about__info-p1 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.about__info-p2 {
+  font-size: 14px;
+}
+
+.info__contacts {
+  margin-top: 20px;
+}
+.info__contacts strong {
+  color: #ff4a57;
+}
+.info__contacts p {
+  margin-top: 3px;
+}
+.info__contacts .col-6 {
+  margin: 10px 0;
 }
 
