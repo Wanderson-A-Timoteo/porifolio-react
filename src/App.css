@@ -157,6 +157,14 @@ body {
   padding: 13px 40px;
 }
 
+.btn-outline:hover {
+  color: #FF4A57;
+  font-size: 20px;
+  font-weight: 500;
+  background: #FFFFFF;
+  transition: all 0.5s linear;
+}
+
 .btn-smart {
   background: #FF4A57;
   padding: 13px 40px;
@@ -166,6 +174,10 @@ body {
 .play {
   font-size: 25px !important;
   padding-top: 10px;
+}
+
+.btn-smart:hover {
+  border: 3px solid #fff;
 }
 
 .banner__img {
@@ -293,3 +305,104 @@ body {
   margin: 10px 0;
 }
 
+/* Contact */
+.contact {
+  padding: 100px 0;
+  background: rgb(34, 3, 63);
+}
+.contactSection-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contactSection-logo h1{
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.contactSection-logo img {
+  margin: 0 auto;
+  width: 130px;
+}
+.contactSection p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.contactCircles {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.contactCircles li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #1f2235;
+  margin: 0 10px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+.contactCircles li:hover {
+  font-size: 30px;
+  background: #ff4a57;
+}
+
+@media (max-width: 765px) {
+  .container {
+    width: 100%;
+    padding: 0 50px;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .navbar__right {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background: rgb(34, 3, 63);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .navbar__right li a {
+    display: block;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  .toggle {
+    display: flex;
+  }
+  .banner__img img {
+    display: none;
+  }
+  .header__section h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .header__section p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  .common {
+    width: 100%;
+  }
+  .h-650 {
+    height: auto;
+  }
+}
