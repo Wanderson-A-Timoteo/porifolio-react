@@ -23,7 +23,7 @@ function About() {
         <div className="row  h-650 alignCenter">
           <div className="col-6">
             <div className="about__img">
-              <img src="/images/about.svg" alt="programming image" />
+              <img src="/images/about.svg" alt="programming" />
             </div>
           </div>
           <div className="col-6">

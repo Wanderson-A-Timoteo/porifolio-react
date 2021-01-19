@@ -17,25 +17,26 @@ function Banner () {
                             <div className="header__section">
                                 <ul className="header__ul">
                                     <li>
-                                        <FaGithub />
+                                        <a href="https://github.com/Wanderson-A-Timoteo" target="_blank"> <FaGithub /> </a> 
                                     </li>
                                     <li>
-                                        <FaFacebookF />
+                                    <a href="https://www.facebook.com/wanderson.a.timoteo" target="_blank"> <FaFacebookF /> </a> 
+                                       
                                     </li>
                                     <li>
-                                        <FaInstagram />
+                                    <a href="https://www.instagram.com/wanderson_a_timoteo/" target="_blank"> <FaInstagram /> </a>
                                     </li>
                                     <li>
-                                        <FaTwitter />
+                                    <a href="https://twitter.com/WandersonAT" target="_blank"> <FaTwitter /> </a>
                                     </li>
                                     <li>
-                                        <FaTelegram />
+                                    <a href="https://t.me/WandersonTimoteo" target="_blank"> <FaTelegram /> </a>
                                     </li>
                                     <li>
-                                        <FaWhatsapp />
+                                    <a href="https://api.whatsapp.com/send?phone=55065992925286" target="_blank"> <FaWhatsapp /> </a>
                                     </li>
                                     <li>
-                                        <FaLinkedin />
+                                    <a href="https://www.linkedin.com/in/wanderson-a-timoteo/" target="_blank"> <FaLinkedin /> </a>
                                     </li>
                                 </ul>
                                 <h1> {state.title} </h1>
@@ -54,7 +55,7 @@ function Banner () {
                     </div>
                     <div className="col-6">
                         <div className="banner__img">
-                        <img src={state.image} alt="programming image" />
+                        <img src={state.image} alt="programming" />
                         </div>
                     </div>
                 </div>

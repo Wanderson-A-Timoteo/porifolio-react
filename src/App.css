@@ -103,7 +103,7 @@ body {
   margin-bottom: 20px;
 }
 
-.header__ul li {
+.header__ul li{
   width: 50px;
   height: 50px;
   font-size: 20px;
@@ -118,17 +118,22 @@ body {
 }
 
 .header__ul li:hover {
+  background: #fff;
+  border: 3px solid #FF4A57;
+  transition: all 0.5s linear;
+}
+
+.header__ul li a{
+  color: #FFFFFF;
+}
+
+.header__ul li a:hover {
   font-size: 30px;
   color: #FF4A57;
-  background: #fff;
-  border: 2px solid transparent;
+  transition: all 0.5s linear;
 }
 
-.header__ul li:hover .headerIcon {
-  color: #ff4a57;
-}
-
-.header__ul li:first-child {
+.header__ul li a:first-child {
   margin-left: 0;
 }
 .header__section h1 {
