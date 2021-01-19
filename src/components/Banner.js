@@ -9,7 +9,7 @@ function Banner () {
         image: '/images/my-photo.jpg'
     });
     return (
-        <header className="header">
+        <header className="header" id="home">
             <div className="container">
                 <div className="row">
                     <div className="col-6">

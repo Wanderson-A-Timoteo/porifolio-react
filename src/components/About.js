@@ -13,7 +13,7 @@ function About() {
     { id: 4, title: "Linkedin", text: "wanderson-a-timoteo" },
   ]);
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="container">
         <div className="common">
           <h1 className="mainHeader">{header.subHeader}</h1>
@@ -23,7 +23,7 @@ function About() {
         <div className="row  h-650 alignCenter">
           <div className="col-6">
             <div className="about__img">
-              <img src="/images/my-photo.jpg" alt="Photo Wanderson Timóteo" />
+              <img src="/images/my-photo2.jpg" alt="Photo Wanderson Timóteo" />
             </div>
           </div>
           <div className="col-6">

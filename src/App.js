@@ -6,7 +6,6 @@ import Contact from "./components/Contact";
 import Nav from "./components/Nav";
 import Services from "./components/Services";
 
-
 function App() {
   return (
     <div>

@@ -80,7 +80,7 @@ function Services() {
     ]);
 
     return(
-        <div className="services">
+        <div className="services" id="services">
             <div className="container">
                 <div className="services__header">
                     <div className="common">

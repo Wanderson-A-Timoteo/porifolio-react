@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaTelegram, FaInstagram, FaLinkedin, FaWhatsapp
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="container">
         <div className="contactSection">
           <div className="row justifyConter">
