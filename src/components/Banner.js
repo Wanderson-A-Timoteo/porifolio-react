@@ -6,7 +6,7 @@ function Banner () {
     const [state] = React.useState({
         title: 'I am Wanderson Timóteo', 
         text: 'I,m Wanderson, professional web developer whith long time experience in the field.',
-        image: '/images/my-photo.jpg'
+        image: '/images/banner.svg'
     });
     return (
         <header className="header" id="home">
@@ -54,7 +54,7 @@ function Banner () {
                     </div>
                     <div className="col-6">
                         <div className="banner__img">
-                        <img src={state.image} alt="Photo Wanderson Timóteo" />
+                        <img src={state.image} alt="programming image" />
                         </div>
                     </div>
                 </div>
