@@ -20,22 +20,22 @@ function Contact() {
               </p>
               <ul className="contactCircles">
                 <li>
-                  <FaFacebookF className="contactIcon" />
+                  <a href="https://www.facebook.com/wanderson.a.timoteo"> <FaFacebookF className="contactIcon" /> </a>
                 </li>
                 <li>
-                  <FaTwitter className="contactIcon" />
+                  <a href="https://twitter.com/WandersonAT"> <FaTwitter className="contactIcon" /> </a>
                 </li>
                 <li>
-                  <FaTelegram className="contactIcon" />
+                  <a href="https://t.me/WandersonTimoteo"> <FaTelegram className="contactIcon" /> </a>
                 </li>
                 <li>
-                  <FaInstagram className="contactIcon" />
+                  <a href="https://www.facebook.com/wanderson.a.timoteo"> <FaInstagram className="contactIcon" /> </a>
                 </li>
                 <li>
-                  <FaWhatsapp className="contactIcon" />
+                  <a href="https://www.facebook.com/wanderson.a.timoteo"> <FaWhatsapp className="contactIcon" /> </a>
                 </li>
                 <li>
-                  <FaLinkedin className="contactIcon" />
+                  <a href="https://www.facebook.com/wanderson.a.timoteo"> <FaLinkedin className="contactIcon" /> </a>
                 </li>
               </ul>
             </div>

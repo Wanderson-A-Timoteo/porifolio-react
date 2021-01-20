@@ -7,7 +7,7 @@ function Nav() {
                 <div className="navbar__container">
                     <ul className="navbar__left">
                         <div className="navbar__left-logo">
-                            <img src="/images/logo.jpg" alt="logo" />
+                            <img src="/images/logo.svg" alt="logomarca" />
                         </div>
                     </ul>
                     <ul className="navbar__right">
