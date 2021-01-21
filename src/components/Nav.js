@@ -1,4 +1,7 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
+
 
 function Nav() {
     return (
@@ -11,11 +14,11 @@ function Nav() {
                         </div>
                     </ul>
                     <ul className="navbar__right">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contacts</a></li>
+                        <li><AnchorLink href="#home">Home</AnchorLink></li>
+                        <li><AnchorLink href="#about">About</AnchorLink></li>
+                        <li><AnchorLink href="#skills">Skills</AnchorLink></li>
+                        <li><AnchorLink href="#projects">Projects</AnchorLink></li>
+                        <li><AnchorLink href="#contact">Contacts</AnchorLink></li>
                     </ul>
                 </div>
             </div>
