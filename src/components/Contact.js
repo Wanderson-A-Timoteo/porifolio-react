@@ -10,7 +10,7 @@ function Contact() {
             <div className="col-6">
               <div className="contactSection-logo">
                 <h1>Contacts</h1>
-                <img src="/images/logo.jpg" alt="" />
+                <img src="/images/logo.png" alt="Logomarca Wanderson Timóteo" />
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -35,7 +35,7 @@ function Contact() {
                   <a href="https://www.facebook.com/wanderson.a.timoteo"> <FaWhatsapp className="contactIcon" /> </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/wanderson.a.timoteo"> <FaLinkedin className="contactIcon" /> </a>
+                  <a href="https://www.linkedin.com/in/wanderson-a-timoteo/"> <FaLinkedin className="contactIcon" /> </a>
                 </li>
               </ul>
             </div>

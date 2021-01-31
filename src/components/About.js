@@ -10,7 +10,7 @@ function About() {
     { id: 1, title: "Name:", text: "Wanderson A. Timóteo" },
     { id: 2, title: "Email:", text: "wanderson_timoteo@hotmail.com" },
     { id: 3, title: "Phone:", text: "+55 65 99292 5286" },
-    { id: 4, title: "Linkedin", text: "wanderson-a-timoteo" },
+    { id: 4, title: "Linkedin", text: "www.linkedin.com/in/wanderson-a-timoteo" },
   ]);
   return (
     <div className="about" id="about">
@@ -23,7 +23,7 @@ function About() {
         <div className="row  h-650 alignCenter">
           <div className="col-6">
             <div className="about__img">
-              <img src="/images/about.svg" alt="programming" />
+              <img src="/images/my-photo-about.jpg" alt="My Photo" />
             </div>
           </div>
           <div className="col-6">
