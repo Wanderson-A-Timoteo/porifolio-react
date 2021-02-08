@@ -58,7 +58,7 @@ body {
 }
 
 .bgMain {
-  background: rgb(34, 3, 63);
+  background: #22033F;
 }
 
 .h-650 {
@@ -203,7 +203,7 @@ body {
 
 /* Services */
 .services {
-  background: rgb(34, 3, 63);
+  background: #22033F;
   padding: 100px 0;
   color: #FFFFFF;
 }
@@ -241,7 +241,7 @@ body {
 
 .services__box {
   padding: 40px;
-  background: rgb(57, 9, 102);
+  background: #390966;
   color: #FFFFFF;
   margin: 20px;
   transition: all 0.5s linear;
@@ -275,7 +275,7 @@ body {
 /* Abaout */
 .about {
   width: 100%;
-  background: rgb(57, 9, 102);
+  background: #390966;
   padding: 100px 0;
 }
 
@@ -325,7 +325,7 @@ body {
 /* Contact */
 .contact {
   padding: 100px 0;
-  background: rgb(34, 3, 63);
+  background: #390966;
 }
 
 .contactSection-logo {
@@ -363,7 +363,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #1f2235;
+  background: #22033F;
   margin: 0 10px;
   cursor: pointer;
 }
@@ -423,7 +423,7 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background: rgb(34, 3, 63);
+    background: #22033F;
     position: fixed;
     top: 0;
     left: 0;
@@ -487,7 +487,7 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background: rgb(34, 3, 63);
+    background: #22033F;
     position: fixed;
     top: 0;
     left: 0;

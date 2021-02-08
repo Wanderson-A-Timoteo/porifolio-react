@@ -2,9 +2,10 @@ import React from "react";
 
 function About() {
   const [header] = React.useState({
-    subHeader: "About Me",
+    subHeader: "Sobre",
     text:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
+      "Meu nome é Wanderson de Almeida Timóteo, sou estudante de Sistemas de Informação pela UFMT, "
+      +"apaixonado por tecnologia e programação",
   });
   const [state] = React.useState([
     { id: 1, title: "Name:", text: "Wanderson A. Timóteo" },
@@ -28,15 +29,14 @@ function About() {
           </div>
           <div className="col-6">
             <div className="about__info">
-              <h1>Hi There</h1>
+              <h1>Olá!</h1>
               <div className="about__info-p1">
-                In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui
-                at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id
-                efficitur sagittis, urna est ultricies eros, ac porta sem turpis
+                Eu me descrevo como alguém persistente, que aprende rápido e ama resolver problemas usando soluções 
+                simples e escaláveis.
               </div>
               <div className="about__info-p2">
-                nunc id efficitur sagittis, urna est ultricies eros, ac porta
-                sem turpis porta sem turpis quis leo. Nulla in feugiat elit
+                Procuro sempre me atualizar sobre programação, principalmente na stack JavaScript, 
+                usando no front-end React.js, no back-end Node.js e no mobile React Native.
               </div>
               <div className="info__contacts">
                 <div className="row">

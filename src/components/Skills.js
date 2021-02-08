@@ -2,11 +2,11 @@ import React from 'react';
 import { FaGithub, FaHtml5, FaJsSquare, FaJava, FaNodeJs, FaPhp, FaDocker, FaCss3Alt, FaReact } from 'react-icons/fa';
 import { SiPostgresql, SiMysql } from 'react-icons/si';
 
-function Services() {
+function Skills() {
 
     const [header] = React.useState({ 
-        mainHeader: "SERVIÇOS", 
-        subHeading: "Meus Projetos", 
+        mainHeader: "Skills", 
+        subHeading: "Habilidades", 
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex felis, accumsan non\
          nibh a, condimentum blandit erat", 
     });
@@ -80,7 +80,7 @@ function Services() {
     ]);
 
     return(
-        <div className="services" id="services">
+        <div className="services" id="skills">
             <div className="container">
                 <div className="services__header">
                     <div className="common">
@@ -107,4 +107,4 @@ function Services() {
     )
 }
 
-export default Services;
+export default Skills;

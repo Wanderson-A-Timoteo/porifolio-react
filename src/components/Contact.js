@@ -9,7 +9,7 @@ function Contact() {
           <div className="row justifyConter">
             <div className="col-6">
               <div className="contactSection-logo">
-                <h1>Contacts</h1>
+                <h1>Contatos</h1>
                 <img src="/images/logo.png" alt="Logomarca Wanderson Timóteo" />
               </div>
               <p>

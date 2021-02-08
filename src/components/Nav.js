@@ -11,16 +11,16 @@ function Nav() {
                 <div className="navbar__container">
                     <ul className="navbar__left">
                         <div className="navbar__left-logo">
-                            <img src="/images/logo.png" alt="logomarca Wanderson Timóteo" />
+                            <img src="/images/logo.png" alt="Logo de um lobo -  Wanderson Timóteo" />
                         </div>
                     </ul>
                     {state ? (
                     <ul className="navbar__right">
-                        <li><AnchorLink href="#home">Home</AnchorLink></li>
-                        <li><AnchorLink href="#about">About</AnchorLink></li>
-                        <li><AnchorLink href="#skills">Skills</AnchorLink></li>
-                        <li><AnchorLink href="#projects">Projects</AnchorLink></li>
-                        <li><AnchorLink href="#contact">Contacts</AnchorLink></li>
+                        <li><AnchorLink href="#home">Início</AnchorLink></li>
+                        <li><AnchorLink href="#skills">Habilidades</AnchorLink></li>
+                        <li><AnchorLink href="#about">Sobre</AnchorLink></li>
+                        <li><AnchorLink href="#services">Projetos</AnchorLink></li>
+                        <li><AnchorLink href="#contact">Contatos</AnchorLink></li>
                     </ul>
                     ) : (
                         ""

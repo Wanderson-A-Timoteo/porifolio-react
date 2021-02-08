@@ -4,8 +4,8 @@ import { FaFacebookF, FaGithub, FaInstagram, FaTelegram, FaTwitter, FaWhatsapp, 
 function Banner () {
 
     const [state] = React.useState({
-        title: 'I am Wanderson Timóteo', 
-        text: 'I,m Wanderson, professional web developer whith long time experience in the field.',
+        title: 'Eu sou Wanderson Timóteo', 
+        text: 'Atualmente estou cursando bacharelado em Sistemas de Informação pela Universidade Federal de Mato Grosso',
         image: '/images/banner.svg'
     });
     return (
@@ -43,7 +43,7 @@ function Banner () {
                                 <p> {state.text} </p>
                                 <div className="header__buttons">
                                     <a href="" className="btn btn-outline">
-                                        My Portfolio
+                                        Download Currículo
                                     </a>
                                     &nbsp;&nbsp;&nbsp;
                                     <a href="" className="btn btn-smart">
