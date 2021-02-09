@@ -88,6 +88,16 @@ body {
   width: 33.33333333333333%;
 }
 
+.rowSkills {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.col-4Skills {
+  width: 25%;
+}
+
 /* Header */
 .header__content {
   display: flex;
@@ -200,6 +210,89 @@ body {
   margin-left: 319px;
 }
 */
+
+/* Skills */
+.skills {
+  background: #22033F;
+  padding: 100px 0;
+  color: #FFFFFF;
+}
+
+.common-skills {
+  width: 33.33333333333333%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.mainSkillsHeader {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.mainSkillsContent {
+  font-size: 16px;
+  color: #DFDFDF;
+}
+
+.commonSkillsBorder {
+  background: #FF4A57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
+}
+
+.skills__box {
+  padding: 10px;
+  background: #390966;
+  color: #FFFFFF;
+  margin: 20px;
+  transition: all 0.5s linear;
+}
+
+.skills__box:hover {
+  background: #FF4A57;
+}
+
+.commonSkillsIcons {
+  display: contents;
+  font-size: 50px;
+  color: #FF4A57;
+}
+
+.skills__box:hover .commonSkillsIcons {
+  color: #FFFFFF;
+}
+
+.skills__box-header {
+  font-size: 20px;
+  font-weight: 500;
+  float: left;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.skills__box-p {
+  font-size: 14px;
+  color: #DFDFDF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Services */
 .services {

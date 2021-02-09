@@ -5,7 +5,7 @@ function Banner () {
 
     const [state] = React.useState({
         title: 'Eu sou Wanderson Timóteo', 
-        text: 'Atualmente estou cursando bacharelado em Sistemas de Informação pela Universidade Federal de Mato Grosso',
+        text: 'Atualmente estou cursando bacharelado em Sistemas de Informação na Universidade Federal de Mato Grosso',
         image: '/images/banner.svg'
     });
     return (

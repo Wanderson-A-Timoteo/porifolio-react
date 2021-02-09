@@ -1,102 +1,95 @@
 import React from 'react';
-import { FaGithub, FaHtml5, FaJsSquare, FaJava, FaNodeJs, FaPhp, FaDocker, FaCss3Alt, FaReact } from 'react-icons/fa';
-import { SiPostgresql, SiMysql } from 'react-icons/si';
+import { FaHtml5, FaJsSquare, FaNodeJs, FaPhp, FaDocker, FaCss3Alt, FaReact, FaJava, } from 'react-icons/fa';
+import { SiPostgresql, SiMysql, SiAzuredevops, } from 'react-icons/si';
 
 function Skills() {
 
     const [header] = React.useState({ 
-        mainHeader: "Skills", 
         subHeading: "Habilidades", 
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex felis, accumsan non\
-         nibh a, condimentum blandit erat", 
+        text: "Desenvolvimento de Sistemas em projetos pessoais front-end e back-end\
+         aplicando as melhores práticas de programação, com as seguintes tecnologias:", 
     });
 
     const [state] = React.useState([
-        { 
-            id: 1, 
-            icon1: <FaGithub />, 
-            heading: 'My Projects', 
-            text: 'Proin ut egestas nunc, ut pellentesque arcu. Curabitur congue, justo et mattis porttitor,\
-            mauris dui aliquet sapien, sed ultricies turpis massa sed justo. Nunc id commodo risus.' 
-        },
+        
         { 
             id: 2, 
             icon1: <FaReact />, 
             heading: 'React.js', 
-            text: 'Proin ut egestas nunc, ut pellentesque arcu. Curabitur congue, justo et mattis porttitor,\
-            mauris dui aliquet sapien, sed ultricies turpis massa sed justo. Nunc id commodo risus.' 
         },
         { 
             id: 3, 
             icon1: <FaNodeJs />, 
             heading: 'Node.js', 
-            text: 'Proin ut egestas nunc, ut pellentesque arcu. Curabitur congue, justo et mattis porttitor,\
-            mauris dui aliquet sapien, sed ultricies turpis massa sed justo. Nunc id commodo risus.' 
         },
         { 
             id: 4, 
             icon1: <FaJsSquare />, 
             heading: 'JavaScript', 
-            text: 'Proin ut egestas nunc, ut pellentesque arcu. Curabitur congue, justo et mattis porttitor,\
-            mauris dui aliquet sapien, sed ultricies turpis massa sed justo. Nunc id commodo risus.' 
         },
         { 
             id: 5, 
             icon1: <FaDocker />, 
-            heading: 'Docker', 
-            text: 'Proin ut egestas nunc, ut pellentesque arcu. Curabitur congue, justo et mattis porttitor,\
-            mauris dui aliquet sapien, sed ultricies turpis massa sed justo. Nunc id commodo risus.' 
+            heading: 'Docker',  
         },
         { 
             id: 6, 
             icon1: <SiMysql />,
-            icon2: <SiPostgresql />, 
-            heading: 'MySQL & Postgresql', 
-            text: 'Proin ut egestas nunc, ut pellentesque arcu. Curabitur congue, justo et mattis porttitor,\
-            mauris dui aliquet sapien, sed ultricies turpis massa sed justo. Nunc id commodo risus.' 
-        },
-        { 
-            id: 7, 
-            icon1: <FaJava />, 
-            heading: 'JAVA', 
-            text: 'Proin ut egestas nunc, ut pellentesque arcu. Curabitur congue, justo et mattis porttitor,\
-            mauris dui aliquet sapien, sed ultricies turpis massa sed justo. Nunc id commodo risus.' 
+            heading: 'MySQL', 
         },
         { 
             id: 8, 
             icon1: <FaHtml5 />,
-            icon2: <FaCss3Alt/>, 
-            heading: 'HTML5 & CSS3', 
-            text: 'Proin ut egestas nunc, ut pellentesque arcu. Curabitur congue, justo et mattis porttitor,\
-            mauris dui aliquet sapien, sed ultricies turpis massa sed justo. Nunc id commodo risus.' 
+            heading: 'HTML5', 
         },
         { 
             id: 9, 
+            icon1: <FaCss3Alt />,
+            heading: 'CSS3', 
+        },
+        { 
+            id: 10, 
             icon1: <FaPhp />, 
             heading: 'PHP', 
-            text: 'Proin ut egestas nunc, ut pellentesque arcu. Curabitur congue, justo et mattis porttitor,\
-            mauris dui aliquet sapien, sed ultricies turpis massa sed justo. Nunc id commodo risus.' 
+        },
+        { 
+            id: 11, 
+            icon1: <SiPostgresql />, 
+            heading: 'PostgreSQL', 
+        },
+        { 
+            id: 12, 
+            icon1: <FaJava />, 
+            heading: 'Java', 
+        },
+        { 
+            id: 13, 
+            icon1: <FaReact />, 
+            heading: 'React Native', 
+        },
+        { 
+            id: 14, 
+            icon1: <SiAzuredevops />, 
+            heading: 'DevOps', 
         },
     ]);
 
     return(
-        <div className="services" id="skills">
+        <div className="skills" id="skills">
             <div className="container">
-                <div className="services__header">
-                    <div className="common">
-                        <h3 className="heading"> { header.mainHeader } </h3>
-                        <h1 className="mainHeader"> { header.subHeading } </h1>
-                        <p className="mainContent"> { header.text } </p>
-                        <div className="commonBorder"></div>
+                <div className="skills__header">
+                    <div className="common-skills">
+                        <h1 className="mainSkillsHeader"> { header.subHeading } </h1>
+                        <p className="mainSkillsContent"> { header.text } </p>
+                        <div className="commonSkillsBorder"></div>
                     </div>
 
-                    <div className="row bgMain">
+                    <div className="rowSkills bgMainSkills">
                         { state.map(info => (
-                            <div className="col-4 bgMain">
-                                <div className="services__box">
-                                    <div className="commonIcons"> {info.icon1} {info.icon2} </div>
-                                    <div className="services__box-header"> { info.heading }</div>
-                                    <div className="services__box-p"> { info.text } </div>
+                            <div className="col-4Skills bgMainSkills">
+                                <div className="skills__box">
+                                    <div className="commonSkillsIcons"> {info.icon1} </div>
+                                    <div className="skills__box-header"> { info.heading }</div>
                                 </div>
                             </div>
                         ))}                   

@@ -4,7 +4,7 @@ function About() {
   const [header] = React.useState({
     subHeader: "Sobre",
     text:
-      "Meu nome é Wanderson de Almeida Timóteo, sou estudante de Sistemas de Informação pela UFMT, "
+      "Meu nome é Wanderson de Almeida Timóteo, sou estudante de Sistemas de Informação na UFMT, "
       +"apaixonado por tecnologia e programação",
   });
   const [state] = React.useState([
