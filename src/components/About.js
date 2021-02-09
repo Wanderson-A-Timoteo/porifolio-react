@@ -8,9 +8,9 @@ function About() {
       +"apaixonado por tecnologia e programação",
   });
   const [state] = React.useState([
-    { id: 1, title: "Name:", text: "Wanderson A. Timóteo" },
-    { id: 2, title: "Email:", text: "wanderson_timoteo@hotmail.com" },
-    { id: 3, title: "Phone:", text: "+55 65 99292 5286" },
+    { id: 1, title: "Nome:", text: "Wanderson A. Timóteo" },
+    { id: 2, title: "E-mail:", text: "wanderson_timoteo@hotmail.com" },
+    { id: 3, title: "Telefone:", text: "+55 65 99292 5286" },
     { id: 4, title: "Linkedin", text: "www.linkedin.com/in/wanderson-a-timoteo" },
   ]);
   return (
@@ -24,7 +24,7 @@ function About() {
         <div className="row  h-650 alignCenter">
           <div className="col-6">
             <div className="about__img">
-              <img src="/images/my-photo-about.jpg" alt="My Photo" />
+              <img src="/images/my-photo-about.jpg" alt="Imagem de Wanderson Timóteo" />
             </div>
           </div>
           <div className="col-6">
