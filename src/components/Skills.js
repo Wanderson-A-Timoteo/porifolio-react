@@ -6,7 +6,7 @@ function Skills() {
 
     const [header] = React.useState({ 
         subHeading: "Habilidades", 
-        text: "Desenvolvimento de Sistemas em projetos pessoais front-end e back-end\
+        text: "Desenvolvimento de Sistemas em projetos acadêmicos e pessoais, front-end e back-end\
          aplicando as melhores práticas de programação, com as seguintes tecnologias:", 
     });
 
