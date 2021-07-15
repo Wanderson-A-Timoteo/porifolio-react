@@ -524,6 +524,9 @@ body {
   }
   .toggle {
     display: flex;
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
   }
   .banner__img img {
     display: none;
@@ -545,6 +548,12 @@ body {
   .header__ul {
     display: none;
   }
+  .header__buttons {
+    height: 150px;
+  }
+  .header_buttons .btn-smart {
+    display: none;
+  }
   .common {
     width: 100%;
   }
@@ -564,6 +573,9 @@ body {
   }
   .navbar__container {
     width: 100%;
+  }
+  .navbar__left-logo {
+    width: 250px;
   }
   .col-6 {
     width: 100%;
@@ -594,6 +606,7 @@ body {
   }
   .toggle {
     display: flex;
+    margin-right: 20px;
   }
   .banner__img img {
     display: none;
@@ -613,6 +626,9 @@ body {
     margin-right: 50px;
   }
   .header__ul {
+    display: none;
+  }
+  .header_buttons .btn-smart {
     display: none;
   }
   .common {
@@ -645,8 +661,6 @@ body {
   .skills__box {
     display: flex;
     justify-content: center;
-  }
-  .services__box-header {
   }
   .navbar__right {
     flex-direction: column;
