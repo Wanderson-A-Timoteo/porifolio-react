@@ -486,11 +486,14 @@ body {
     width: 100%;
     padding: 0 50px;
   }
-  .navbar {
-    width: 100%;
+  nav.navbar {
+    width: 320px;
   }
   .navbar__container {
     width: 100%;
+  }
+  .navbar__left-logo {
+    width: 180px;
   }
   .col-6 {
     width: 100%;
