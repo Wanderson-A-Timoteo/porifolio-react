@@ -492,7 +492,7 @@ body {
   .navbar__container {
     width: 100%;
   }
-  .navbar__left-logo {
+  .navbar__left-logo img {
     width: 180px;
   }
   .col-6 {
@@ -574,7 +574,7 @@ body {
   .navbar__container {
     width: 100%;
   }
-  .navbar__left-logo {
+  .navbar__left-logo img {
     width: 250px;
   }
   .col-6 {
